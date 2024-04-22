@@ -4,7 +4,7 @@ Introducing NoteEase: a sleek HTML/CSS/JS notes app. Add, update, delete notes e
 
 ## Preview
 
-![Interface for notes application](`https://i.imgur.com/HsCMpbI.png`)
+![Interface for notes application](https://i.imgur.com/HsCMpbI.png)
 
 ## Features
 
