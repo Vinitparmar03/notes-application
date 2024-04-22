@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    max-height: 100vh;
+    width: 100%;
+}
+
+.container{
+    margin: 70px 0 0 90px;
+}
+
+.container .heading{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #ffffffea;
+}
+
+.container .heading img{
+    height: 60px;
+}
+
+
+.container .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 8px 18px;
+    border-radius: 60px;
+    font-size: 15px;
+    border: 0;
+    background: #be0bbe;
+    color: #ffffffd8;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.container .notes-container .text-area{
+    position: relative;
+    width: max-content;
+    height: max-content;
+}
+
+.container .notes-container .text-area .notes::-webkit-scrollbar{
+    width: 0;
+}
+
+.container .notes-container .text-area i{
+    color: rgb(82, 80, 80);
+    position: absolute;
+    right: 8px;
+    bottom: 12px;
+}
+
+.container .notes-container .text-area .notes{
+    margin-top: 10px;
+    resize: none;
+    max-width: 550px;
+    height: 155px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px 14px 10px 10px;
+}
